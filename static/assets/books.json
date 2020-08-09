@@ -1,6 +1,6 @@
 [
   {
-    "title": "Anne of Green Gables (Anne of Green Gables, #1)",
+    "title": "Anne of Green Gables",
     "author": "L.M. Montgomery",
     "dateRead": "2020-08-02",
     "rating": 4,
@@ -9,7 +9,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "anne_of_green_gables.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "The Heart is a Lonely Hunter",
@@ -21,10 +21,10 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_heart_is_a_lonely_hunter.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
-    "title": "The Subtle Knife (His Dark Materials, #2)",
+    "title": "The Subtle Knife",
     "author": "Philip Pullman",
     "dateRead": "2020-07-30",
     "rating": 3,
@@ -33,7 +33,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_subtle_knife.webp",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Violet Bent Backwards Over the Grass",
@@ -45,7 +45,7 @@
     "favourite": true,
     "category": "poetry",
     "cover": "violet_bent_backwards_over_the_grass.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "East of Eden",
@@ -57,7 +57,7 @@
     "favourite": true,
     "category": "fiction",
     "cover": "east_of_eden.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Stranger in a Strange Land",
@@ -69,7 +69,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "stranger_in_a_strange_land.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "The Alchemist",
@@ -81,7 +81,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_alchemist.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Dubliners",
@@ -93,7 +93,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "dubliners.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "The Catcher in the Rye",
@@ -105,7 +105,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "catcher_in_the_rye.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "War on Peace",
@@ -117,7 +117,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "war_on_peace.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Vineland",
@@ -129,7 +129,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "vineland.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "All Native",
@@ -141,10 +141,10 @@
     "favourite": false,
     "category": "fiction",
     "cover": "all_native.webp",
-    "detailsPath": null
+    "readMore": false
   },
   {
-    "title": "Dune (Dune, #1)",
+    "title": "Dune",
     "author": "Frank Herbert",
     "dateRead": "2020-03-29",
     "rating": 4,
@@ -153,7 +153,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "dune.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "The Road",
@@ -165,7 +165,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_road.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Catch and Kill",
@@ -177,7 +177,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "catch_and_kill.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "A Thousand Acres",
@@ -189,7 +189,7 @@
     "favourite": true,
     "category": "fiction",
     "cover": "a_thousand_acres.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Uncanny Valley",
@@ -201,7 +201,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "uncanny_valley.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Octavia's Brood",
@@ -213,7 +213,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "octavias_brood.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
     "title": "Clean Code",
@@ -225,10 +225,10 @@
     "favourite": true,
     "category": "nonfiction",
     "cover": "clean_code.jpg",
-    "detailsPath": null
+    "readMore": false
   },
   {
-    "title": "The Golden Compass (His Dark Materials, #1)",
+    "title": "The Golden Compass",
     "author": "Philip Pullman",
     "dateRead": "2020-01-23",
     "rating": 4,
@@ -237,10 +237,10 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_golden_compass.webp",
-    "detailsPath": null
+    "readMore": false
   },
   {
-    "title": "Annihilation (Southern Reach, #1)",
+    "title": "Annihilation",
     "author": "Jeff VanderMeer",
     "dateRead": "2020-01-19",
     "rating": 2,
@@ -249,6 +249,6 @@
     "favourite": false,
     "category": "fiction",
     "cover": "annihilation.jpg",
-    "detailsPath": null
+    "readMore": false
   }
 ]
