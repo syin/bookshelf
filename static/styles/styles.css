@@ -78,7 +78,7 @@ h1 {
   grid-auto-rows: minmax(20rem, auto); }
 
 .book {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.2; }
   .book a, .book a:hover {
     color: #fff; }
@@ -92,7 +92,10 @@ h1 {
     object-fit: contain; }
   .book .rating {
     display: flex;
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    margin-top: 0.3rem; }
+    .book .rating i:first-child {
+      margin-left: 0; }
   .book .heart {
     margin-left: 0.3rem; }
 
@@ -102,4 +105,43 @@ h1 {
   h1 {
     font-size: 2.5rem;
     margin-top: 0.5rem;
-    margin-bottom: 0.5rem; } }
+    margin-bottom: 0.5rem; }
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 0; }
+  h3 {
+    font-size: 1.2rem; }
+  /* copied from jekyll site */
+  .header {
+    flex-direction: column;
+    align-items: flex-start; }
+    .header h1 {
+      font-size: 2.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; } }
+
+/* copied from jekyll site */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify; }
+  .header h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    .header h1 a:hover {
+      color: #ebc3c3; }
+  .header nav {
+    font-family: "Space Mono", monospace; }
+    .header nav a {
+      text-decoration: none; }
+    .header nav a:hover {
+      color: #ebc3c3; }
+    .header nav a:before {
+      content: '\00B7';
+      padding: 0.3rem; }
+    .header nav a:first-child:before {
+      content: '';
+      padding: 0; }

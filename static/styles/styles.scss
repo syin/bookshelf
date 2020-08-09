@@ -106,7 +106,7 @@ margin-bottom: 1rem;
 }
 
 .book {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.2;
 
   a, a:hover {
@@ -119,9 +119,6 @@ margin-bottom: 1rem;
     margin-bottom: 0.3rem;
   }
 
-  .author {
-  }
-
   img {
     width: 100%;
     height: 16rem;
@@ -131,6 +128,11 @@ margin-bottom: 1rem;
   .rating {
     display: flex;
     justify-content: flex-start;
+    margin-top: 0.3rem;
+
+    i:first-child {
+      margin-left: 0;
+    }
   }
 
   .heart {
@@ -147,5 +149,63 @@ margin-bottom: 1rem;
     font-size: 2.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  /* copied from jekyll site */
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+/* copied from jekyll site */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+
+  h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    a:hover {
+      color: $blushpink;
+    }
+  }
+
+  nav {
+    font-family: $mono;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      color: $blushpink;
+    }
+    a:before {
+      content: '\00B7';
+      padding: 0.3rem;
+    }
+    a:first-child:before {
+      content: '';
+      padding: 0;
+    }
   }
 }

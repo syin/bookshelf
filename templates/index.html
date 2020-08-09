@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}?v=1">
 </head>
 <body>
-    <h1>bookshelf 📚</h1>
+    <!-- todo: don't hardcode this -->
+    <div class="header">
+      <h1><a href="/">shirley yin</a></h1>
+      <nav>
+        <a href="https://shirleyyin.com/about">about</a><a href="https://shirleyyin.com/projects">projects</a><a href="/">bookshelf</a><a href="https://shirleyyin.com/blog">blog</a>
+      </nav>
+    </div>
+
+    <h2>bookshelf 📚</h2>
 
     <bookshelf></bookshelf>
 
