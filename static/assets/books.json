@@ -32,7 +32,7 @@
     "reread": true,
     "favourite": false,
     "category": "fiction",
-    "cover": "the_subtle_knife.webp",
+    "cover": "the_subtle_knife.png",
     "readMore": false
   },
   {
@@ -140,7 +140,7 @@
     "reread": false,
     "favourite": false,
     "category": "fiction",
-    "cover": "all_native.webp",
+    "cover": "all_native.png",
     "readMore": false
   },
   {
@@ -236,7 +236,7 @@
     "reread": true,
     "favourite": false,
     "category": "fiction",
-    "cover": "the_golden_compass.webp",
+    "cover": "the_golden_compass.png",
     "readMore": false
   },
   {
