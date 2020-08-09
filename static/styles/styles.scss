@@ -1,0 +1,102 @@
+$darkblue: #171a28;
+$blushpink: #ebc3c3;
+$pink: scale-color(#8b3e4e, $lightness: 25%, $saturation: -40%);
+
+$white: #fff;
+$offwhite: darken(#fff, 10%);
+
+$serif: 'Spectral', serif;
+$sans: 'Roboto', sans-serif;
+$mono: 'Space Mono', monospace;
+
+body {
+  background-color: $darkblue;
+  color: $offwhite;
+
+  font-family: $sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+  color: $blushpink;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $pink;
+}
+
+strong {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $mono;
+  font-weight: 400;
+  color: $blushpink;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+
+h1 {
+font-size: 4rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+
+  a:hover {
+    color: $blushpink;
+  }
+}
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  grid-auto-rows: minmax(20rem, auto);
+}
+
+.book {
+  font-size: 1.1rem;
+  line-height: 1.2;
+
+  .title {
+    font-weight: 600;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .author {
+  }
+
+  img {
+    width: 100%;
+    height: 16rem;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

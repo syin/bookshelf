@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bookshelf 📚</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}?v=1">
+</head>
+<body>
+    <h1>bookshelf 📚</h1>
+
+    <bookshelf></bookshelf>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.13.2/riot+compiler.min.js"></script>
+
+    <script type="riot/tag" src="{{ url_for('static',filename='bookshelf.tag') }}"></script>
+
+    <script>
+        riot.mount('bookshelf');
+    </script>
+</body>
+</html>

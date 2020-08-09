@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+  },
+  "scripts": {
+    "sass": "node-sass --watch /code/static/styles/styles.scss --output /code/static/styles/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "^12.18"
+  }
+}

@@ -1,0 +1,4 @@
+static/assets/covers/
+static/styles/.sass-cache/
+*.pyc
+docker-compose.override.yml

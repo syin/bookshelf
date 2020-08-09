@@ -1,0 +1,71 @@
+body {
+  background-color: #171a28;
+  color: #e6e6e6;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+a {
+  color: #ebc3c3;
+  text-decoration: underline; }
+
+a:hover {
+  color: #a6707c; }
+
+strong {
+  font-weight: 500; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  color: #ebc3c3; }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    text-decoration: none; }
+
+h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  h1 a:hover {
+    color: #ebc3c3; }
+
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  grid-auto-rows: minmax(20rem, auto); }
+
+.book {
+  font-size: 1.1rem;
+  line-height: 1.2; }
+  .book .title {
+    font-weight: 600;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem; }
+  .book img {
+    width: 100%;
+    height: 16rem;
+    object-fit: contain; }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.3rem; }
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; } }
