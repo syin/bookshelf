@@ -7,7 +7,7 @@
         </a>
         <img if={ !book.readMore } src="/static/assets/covers/{ book.cover }">
       </div>
-      <div class="title" if={ book.readMore }>
+      <div class="title" title="Read more" if={ book.readMore }>
         <a href="/details/{ book.readMore }">{ book.title }</a> →
       </div>
       <div class="title" if={ !book.readMore }>{ book.title }</div>

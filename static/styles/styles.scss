@@ -2,6 +2,9 @@ $darkblue: #171a28;
 $blushpink: #ebc3c3;
 $pink: scale-color(#8b3e4e, $lightness: 25%, $saturation: -40%);
 
+$quotebackground: scale-color($darkblue, $lightness: 15%, $saturation: -40%);
+$quotemarks: rgba(136,141,162, 0.5);
+
 $white: #fff;
 $offwhite: darken(#fff, 10%);
 
@@ -177,6 +180,28 @@ margin-bottom: 1rem;
 .book-details {
   font-size: 1.5rem;
   line-height: 1.75;
+
+  blockquote {
+    margin: 2em 0;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    position: relative;
+    background-color: $quotebackground;
+    z-index: -1;
+
+    p:first-of-type:before {
+      color: $quotemarks;
+      font-size: 14rem;
+      content: '\201C';
+      position: absolute;
+      left: -0.1em;
+      top: -0.62em;
+      font-family: "Times New Roman", serif;
+      z-index: -100;
+    }
+
+  }
 }
 
 /* copied from jekyll site */
