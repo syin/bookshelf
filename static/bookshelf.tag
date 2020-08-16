@@ -2,22 +2,29 @@
   <div class="container">
     <div class="book" each={ book in books }>
       <div>
-        <a if={ book.readMore } href="/details/{ slugify(book.author, book.title) }">
+        <a if={ book.readMore } href="/details/{ book.readMore }">
           <img src="/static/assets/covers/{ book.cover }">
         </a>
         <img if={ !book.readMore } src="/static/assets/covers/{ book.cover }">
       </div>
       <div class="title" if={ book.readMore }>
-        <a href="/details/{ slugify(book.author, book.title) }">{ book.title }</a> →
+        <a href="/details/{ book.readMore }">{ book.title }</a> →
       </div>
       <div class="title" if={ !book.readMore }>{ book.title }</div>
       <div class="author">{ book.author }</div>
+      <div class="date-read">Read: { book.dateRead }</div>
       <div class="rating">
-        <div class="stars">
-          <i each={ book.rating } class="icon icon-star">&#xe801;</i>
+        <div class="stars" title="Rating">
+          <i each={ book.rating } class="icon icon-star"></i>
         </div>
-        <div class="heart" if={ book.favourite }>
-          <i class="icon icon-heart">&#xe800;</i>
+        <div class="heart" title="Favourite" if={ book.favourite }>
+          <i class="icon icon-heart"></i>
+        </div>
+        <div class="audio" title="Audiobook" if={ book.audiobook }>
+          <i class="icon icon-headphones"></i>
+        </div>
+        <div class="reread" title="Reread" if={ book.reread }>
+          <i class="icon icon-cw"></i>
         </div>
       </div>
     </div>

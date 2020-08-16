@@ -5,17 +5,16 @@ $pink: scale-color(#8b3e4e, $lightness: 25%, $saturation: -40%);
 $white: #fff;
 $offwhite: darken(#fff, 10%);
 
-$serif: 'Spectral', serif;
 $sans: 'Roboto', sans-serif;
 $mono: 'Space Mono', monospace;
 
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello.eot?37123304');
-  src: url('../fonts/fontello.eot?37123304#iefix') format('embedded-opentype'),
-       url('../fonts/fontello.woff?37123304') format('woff'),
-       url('../fonts/fontello.ttf?37123304') format('truetype'),
-       url('../fonts/fontello.svg?37123304#fontello') format('svg');
+    src: url('../fonts/fontello.eot?89508334');
+    src: url('../fonts/fontello.eot?89508334#iefix') format('embedded-opentype'),
+         url('../fonts/fontello.woff?89508334') format('woff'),
+         url('../fonts/fontello.ttf?89508334') format('truetype'),
+         url('../fonts/fontello.svg?89508334#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -95,6 +94,28 @@ margin-bottom: 1rem;
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-size: 1rem;
+
+  &.icon-heart:before {
+    content: '\e800';
+  }
+
+  &.icon-star:before {
+    content: '\e801';
+  }
+
+  &.icon-headphones:before {
+    content: '\e802';
+  }
+
+  &.icon-cw {
+    font-size: 0.9rem;
+
+    &:before {
+      content: '\e803';
+    }
+  }
 }
 
 .container {
@@ -102,7 +123,7 @@ margin-bottom: 1rem;
   grid-gap: 2rem;
   margin: 2rem auto;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  grid-auto-rows: minmax(20rem, auto);
+  grid-auto-rows: minmax(17rem, auto);
 }
 
 .book {
@@ -119,27 +140,44 @@ margin-bottom: 1rem;
     margin-bottom: 0.3rem;
   }
 
+  .author {
+    margin-bottom: 0.2rem;
+  }
+
+  .date-read {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+
   img {
     width: 100%;
-    height: 16rem;
-    object-fit: contain;
+    height: 17rem;
+    object-fit: cover;
   }
 
   .rating {
     display: flex;
     justify-content: flex-start;
-    margin-top: 0.3rem;
+    margin-top: 0.2rem;
+
+    .icon-star {
+      margin-right: 0;
+    }
 
     i:first-child {
       margin-left: 0;
     }
   }
 
-  .heart {
+  .heart, .audio, .reread {
     margin-left: 0.3rem;
   }
 }
 
+.book-details {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
 
 /* copied from jekyll site */
 .header {
@@ -213,7 +251,6 @@ margin-bottom: 1rem;
     }
   }
 }
-
 
 @media screen and (max-width: 450px) {
   .header nav {
