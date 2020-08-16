@@ -3,3 +3,4 @@ Flask==1.0.2
 python-dotenv==0.10.3
 gunicorn==19.9.0
 Flask-Cors==3.0.8
+Markdown==3.2.2

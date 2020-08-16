@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bookshelf 📚</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}?v=2">
+</head>
+<body>
+  <!-- todo: don't hardcode this -->
+  <div class="header">
+    <h1><a href="/">shirley yin</a></h1>
+    <nav>
+      <a href="https://shirleyyin.com/about">about</a><a href="https://shirleyyin.com/projects">projects</a><a href="/">bookshelf</a><a href="https://shirleyyin.com/blog">blog</a>
+    </nav>
+  </div>
+
+  <h2><a href="/">bookshelf</a> 📚</h2>
+
+  <p>&larr; <a href="/">Back to collection</a></p>
+
+  <div class="book-details">
+    {{ details|safe }}   
+  </div>
+</body>
+</html>
