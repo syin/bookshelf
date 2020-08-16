@@ -158,28 +158,71 @@ margin-bottom: 1rem;
     object-fit: cover;
   }
 
-  .rating {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0.2rem;
-
-    .icon-star {
-      margin-right: 0;
-    }
-
-    i:first-child {
-      margin-left: 0;
-    }
-  }
 
   .heart, .audio, .reread {
     margin-left: 0.3rem;
+  }
+}
+.rating {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.2rem;
+
+  .icon-star {
+    margin-right: 0;
+  }
+
+  i:first-child {
+    margin-left: 0;
   }
 }
 
 .book-details {
   font-size: 1.5rem;
   line-height: 1.75;
+
+  h3 {
+    margin: 1rem 0;
+  }
+
+  .meta {
+    background-color: $quotebackground;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+    .label {
+      font-weight: 700;
+    }
+
+    .date-read, .category {
+      display: block;
+
+      .label {
+        margin-right: 0.2rem;
+      }
+    }
+
+    .rating {
+      align-items: center;
+
+      .label {
+        margin-right: 0.5rem;
+      }
+    }
+
+    i:first-child {
+      margin-left: 0;
+    }
+
+    .icon {
+      margin-left: 0.1rem;
+    }
+
+    .rating .icon {
+      margin-left: 0;
+    }
+  }
 
   blockquote {
     margin: 2em 0;

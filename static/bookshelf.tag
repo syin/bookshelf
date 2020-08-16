@@ -12,7 +12,6 @@
       </div>
       <div class="title" if={ !book.readMore }>{ book.title }</div>
       <div class="author">{ book.author }</div>
-      <div class="date-read">Read: { book.dateRead }</div>
       <div class="rating">
         <div class="stars" title="Rating">
           <i each={ book.rating } class="icon icon-star"></i>

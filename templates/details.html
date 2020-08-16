@@ -24,6 +24,40 @@
   <p>&larr; <a href="/">Back to collection</a></p>
 
   <div class="book-details">
+    <h3>{{ book.title }} &mdash; {{ book.author }}</h3>
+    <div class="meta">
+      <span class="date-read"><span class="label">Read:</span> {{ book.dateRead }}</span>
+      <span class="category"><span class="label">Category:</span> {{ book.category }}</span>
+
+      <div class="rating">
+        <span class="label">Rating:</span>
+        {% for i in range(book.rating) %}
+        <i class="icon icon-star"></i>
+        {% endfor %}
+      </div>
+
+      {% if book.favourite %}
+      <div class="favourite">
+        <span class="label">Favourite</span>
+        (<i class="icon icon-heart"></i>)
+      </div>
+      {% endif %}
+
+      {% if book.audiobook %}
+      <div class="audiobook">
+        <span class="label">Audiobook</span>
+        (<i class="icon icon-headphones"></i>)
+      </div>
+      {% endif %}
+
+      {% if book.reread %}
+      <div class="reread">
+        <span class="label">Reread</span>
+        (<i class="icon icon-cw"></i>)
+      </div>
+      {% endif %}
+    </div>
+
     {{ details|safe }}   
   </div>
 </body>

@@ -23,21 +23,40 @@ def index():
 
 @app.route('/details/<book_name>')
 def details(book_name):
-    filename = os.path.join(app.static_folder, 'assets', 'details', '{}.md'.format(book_name))
-    f = open(filename, 'r')
-    md_text = f.read()
-    f.close()
-    html = markdown.markdown(md_text)
-    return render_template('details.html', details=html)
+    books = get_books()
+    book = get_book_by_read_more_name(books, book_name)
+
+    md_details = get_book_details(book_name)
+    html_details = markdown.markdown(md_details)
+
+    return render_template('details.html', details=html_details, book=book)
 
 
 @app.route('/api/list/')
 def list_books():
-    filename = os.path.join(app.static_folder, 'assets', 'books.json')
-    f = open(filename, 'r')
-    books = json.load(f)
-    f.close()
+    books = get_books()
     return jsonify(books)
+
+
+def get_books():
+    filename = os.path.join(app.static_folder, 'assets', 'books.json')
+    books_file = open(filename, 'r')
+    books = json.load(books_file)
+    books_file.close()
+    return books
+
+
+def get_book_details(book_name):
+    filename = os.path.join(app.static_folder, 'assets', 'details', '{}.md'.format(book_name))
+    details_file = open(filename, 'r')
+    md_text = details_file.read()
+    details_file.close()
+
+    return md_text
+
+
+def get_book_by_read_more_name(books, book_name):
+    return next(book for book in books if book["readMore"] == book_name)
 
 
 if __name__ == "__main__":

@@ -106,20 +106,44 @@ h1 {
     width: 100%;
     height: 17rem;
     object-fit: cover; }
-  .book .rating {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0.2rem; }
-    .book .rating .icon-star {
-      margin-right: 0; }
-    .book .rating i:first-child {
-      margin-left: 0; }
   .book .heart, .book .audio, .book .reread {
     margin-left: 0.3rem; }
+
+.rating {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.2rem; }
+  .rating .icon-star {
+    margin-right: 0; }
+  .rating i:first-child {
+    margin-left: 0; }
 
 .book-details {
   font-size: 1.5rem;
   line-height: 1.75; }
+  .book-details h3 {
+    margin: 1rem 0; }
+  .book-details .meta {
+    background-color: #363a4c;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4; }
+    .book-details .meta .label {
+      font-weight: 700; }
+    .book-details .meta .date-read, .book-details .meta .category {
+      display: block; }
+      .book-details .meta .date-read .label, .book-details .meta .category .label {
+        margin-right: 0.2rem; }
+    .book-details .meta .rating {
+      align-items: center; }
+      .book-details .meta .rating .label {
+        margin-right: 0.5rem; }
+    .book-details .meta i:first-child {
+      margin-left: 0; }
+    .book-details .meta .icon {
+      margin-left: 0.1rem; }
+    .book-details .meta .rating .icon {
+      margin-left: 0; }
   .book-details blockquote {
     margin: 2em 0;
     padding: 0.5rem 2rem;
