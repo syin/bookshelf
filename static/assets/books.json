@@ -1,5 +1,65 @@
 [
   {
+    "title": "My Sister, the Serial Killer",
+    "author": "Oyinkan Braithwaite",
+    "dateRead": "2020-09-12",
+    "rating": 2,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "sister-serial-killer.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Severance",
+    "author": "Ling Ma",
+    "dateRead": "2020-09-11",
+    "rating": 5,
+    "audiobook": false,
+    "reread": false,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "severance.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Wise Blood",
+    "author": "Flannery O'Connor",
+    "dateRead": "2020-09-05",
+    "rating": 3,
+    "audiobook": true,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "wise_blood.jpg",
+    "readMore": null
+  },
+  {
+    "title": "The Amber Spyglass",
+    "author": "Philip Pullman",
+    "dateRead": "2020-09-05",
+    "rating": 3,
+    "audiobook": false,
+    "reread": true,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "the_amber_spyglass.png",
+    "readMore": null
+  },
+  {
+    "title": "A Tree Grows in Brooklyn",
+    "author": "Betty Smith",
+    "dateRead": "2020-08-23",
+    "rating": 4,
+    "audiobook": true,
+    "reread": false,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "tree_grows_in_brooklyn.jpg",
+    "readMore": null
+  },
+  {
     "title": "Me Talk Pretty One Day",
     "author": "David Sedaris",
     "dateRead": "2020-08-15",
@@ -57,7 +117,7 @@
     "favourite": true,
     "category": "poetry",
     "cover": "violet_bent_backwards_over_the_grass.jpg",
-    "readMore": false
+    "readMore": "violet"
   },
   {
     "title": "East of Eden",
@@ -69,7 +129,7 @@
     "favourite": true,
     "category": "fiction",
     "cover": "east_of_eden.jpg",
-    "readMore": false
+    "readMore": "eden"
   },
   {
     "title": "Stranger in a Strange Land",
@@ -81,7 +141,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "stranger_in_a_strange_land.jpg",
-    "readMore": false
+    "readMore": "stranger"
   },
   {
     "title": "The Alchemist",
@@ -93,7 +153,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_alchemist.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Dubliners",
@@ -105,7 +165,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "dubliners.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "The Catcher in the Rye",
@@ -117,7 +177,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "catcher_in_the_rye.jpg",
-    "readMore": false
+    "readMore": "catcher"
   },
   {
     "title": "War on Peace",
@@ -129,7 +189,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "war_on_peace.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Vineland",
@@ -141,7 +201,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "vineland.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "All Native",
@@ -153,7 +213,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "all_native.png",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Dune",
@@ -165,7 +225,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "dune.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "The Road",
@@ -177,7 +237,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_road.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Catch and Kill",
@@ -189,7 +249,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "catch_and_kill.jpg",
-    "readMore": false
+    "readMore": "catchandkill"
   },
   {
     "title": "A Thousand Acres",
@@ -201,7 +261,7 @@
     "favourite": true,
     "category": "fiction",
     "cover": "a_thousand_acres.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Uncanny Valley",
@@ -213,7 +273,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "uncanny_valley.jpg",
-    "readMore": false
+    "readMore": "uncanny"
   },
   {
     "title": "Octavia's Brood",
@@ -225,7 +285,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "octavias_brood.jpg",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Clean Code",
@@ -237,7 +297,7 @@
     "favourite": true,
     "category": "nonfiction",
     "cover": "clean_code.jpg",
-    "readMore": false
+    "readMore": "cleancode"
   },
   {
     "title": "The Golden Compass",
@@ -249,7 +309,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "the_golden_compass.png",
-    "readMore": false
+    "readMore": null
   },
   {
     "title": "Annihilation",
@@ -261,6 +321,6 @@
     "favourite": false,
     "category": "fiction",
     "cover": "annihilation.jpg",
-    "readMore": false
+    "readMore": null
   }
 ]
