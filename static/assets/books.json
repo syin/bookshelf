@@ -117,7 +117,7 @@
     "favourite": true,
     "category": "poetry",
     "cover": "violet_bent_backwards_over_the_grass.jpg",
-    "readMore": "violet"
+    "readMore": null
   },
   {
     "title": "East of Eden",
@@ -129,7 +129,7 @@
     "favourite": true,
     "category": "fiction",
     "cover": "east_of_eden.jpg",
-    "readMore": "eden"
+    "readMore": null
   },
   {
     "title": "Stranger in a Strange Land",
@@ -141,7 +141,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "stranger_in_a_strange_land.jpg",
-    "readMore": "stranger"
+    "readMore": null
   },
   {
     "title": "The Alchemist",
@@ -177,7 +177,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "catcher_in_the_rye.jpg",
-    "readMore": "catcher"
+    "readMore": null
   },
   {
     "title": "War on Peace",
@@ -249,7 +249,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "catch_and_kill.jpg",
-    "readMore": "catchandkill"
+    "readMore": null
   },
   {
     "title": "A Thousand Acres",
@@ -273,7 +273,7 @@
     "favourite": false,
     "category": "nonfiction",
     "cover": "uncanny_valley.jpg",
-    "readMore": "uncanny"
+    "readMore": null
   },
   {
     "title": "Octavia's Brood",
@@ -297,7 +297,7 @@
     "favourite": true,
     "category": "nonfiction",
     "cover": "clean_code.jpg",
-    "readMore": "cleancode"
+    "readMore": null
   },
   {
     "title": "The Golden Compass",
