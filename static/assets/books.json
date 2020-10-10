@@ -1,5 +1,41 @@
 [
   {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "dateRead": "2020-10-06",
+    "rating": 4,
+    "audiobook": true,
+    "reread": true,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "pride_and_prejudice.jpg",
+    "readMore": null
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "dateRead": "2020-10-03",
+    "rating": 3,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "name_of_the_wind.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Faces in the Crowd",
+    "author": "Valeria Luiselli",
+    "dateRead": "2020-09-19",
+    "rating": 2,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "faces_in_the_crowd.jpg",
+    "readMore": null
+  },
+  {
     "title": "My Sister, the Serial Killer",
     "author": "Oyinkan Braithwaite",
     "dateRead": "2020-09-12",
