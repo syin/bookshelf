@@ -12,9 +12,12 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
-  width: 90%;
-  max-width: 1000px;
   margin: 0 auto; }
+  body.gallery, body .preamble {
+    width: 90%;
+    max-width: 1000px; }
+  body .preamble {
+    margin: 0 auto; }
 
 a {
   color: #ebc3c3;
@@ -84,31 +87,35 @@ h1 {
 .container {
   display: grid;
   grid-gap: 2rem;
-  margin: 2rem auto;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-  grid-auto-rows: minmax(17rem, auto); }
+  margin: 2rem auto; }
+  .container.book {
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-auto-rows: minmax(17rem, auto); }
+  .container.artwork {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-auto-rows: minmax(10rem, auto); }
 
-.book {
+.grid-item {
   font-size: 1rem;
   line-height: 1.2;
   display: grid;
   grid-template-rows: minmax(17rem, auto) 3fr 1fr; }
-  .book a, .book a:hover {
+  .grid-item a, .grid-item a:hover {
     color: #fff; }
-  .book .title {
+  .grid-item .title {
     font-weight: 600;
     margin-top: 0.2rem;
     margin-bottom: 0.3rem; }
-  .book .author {
+  .grid-item .author {
     margin-bottom: 0.2rem; }
-  .book .date-read {
+  .grid-item .date-read {
     font-size: 0.9rem;
     font-style: italic; }
-  .book img {
+  .grid-item img {
     width: 100%;
     height: 17rem;
     object-fit: cover; }
-  .book .heart, .book .audio, .book .reread {
+  .grid-item .heart, .grid-item .audio, .grid-item .reread {
     margin-left: 0.3rem; }
 
 .rating {
@@ -122,34 +129,60 @@ h1 {
   .rating .meta-icons {
     display: flex; }
 
-.book-details {
+.post {
+  display: grid;
+  grid-template-columns: 1fr calc(min(65ch, 90%)) 1fr;
   font-size: 1.5rem;
   line-height: 1.75; }
-  .book-details h3 {
+  .post > * {
+    grid-column: 2; }
+  .post .full-bleed {
+    width: 100%;
+    grid-column: 1 / -1; }
+  .post .img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .post img {
+    display: block;
+    max-width: 100%; }
+  .post aside {
+    grid-column: 3;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.2rem; }
+    @media screen and (max-width: 1300px) {
+      .post aside {
+        grid-column: 2;
+        background-color: #363a4c;
+        padding: 0.2rem 0.5rem;
+        margin-top: 0;
+        margin-left: 15%; } }
+  .post h3 {
     margin: 1rem 0; }
-  .book-details .meta {
+  .post .meta {
     background-color: #363a4c;
+    margin-top: 1rem;
     padding: 1rem 2rem;
     font-size: 1.2rem;
     line-height: 1.4; }
-    .book-details .meta .label {
+    .post .meta .label {
       font-weight: 700; }
-    .book-details .meta .date-read, .book-details .meta .category {
+    .post .meta .date-read, .post .meta .category {
       display: block; }
-      .book-details .meta .date-read .label, .book-details .meta .category .label {
+      .post .meta .date-read .label, .post .meta .category .label {
         margin-right: 0.2rem; }
-    .book-details .meta .rating {
+    .post .meta .rating {
       justify-content: flex-start;
       align-items: center; }
-      .book-details .meta .rating .label {
+      .post .meta .rating .label {
         margin-right: 0.5rem; }
-    .book-details .meta i:first-child {
+    .post .meta i:first-child {
       margin-left: 0; }
-    .book-details .meta .icon {
+    .post .meta .icon {
       margin-left: 0.1rem; }
-    .book-details .meta .rating .icon {
+    .post .meta .rating .icon {
       margin-left: 0; }
-  .book-details blockquote {
+  .post blockquote {
     margin: 2em 0;
     padding: 0.5rem 2rem;
     font-size: 1.2rem;
@@ -157,7 +190,7 @@ h1 {
     position: relative;
     background-color: #363a4c;
     z-index: -1; }
-    .book-details blockquote p:first-of-type:before {
+    .post blockquote p:first-of-type:before {
       color: rgba(136, 141, 162, 0.5);
       font-size: 14rem;
       content: '\201C';

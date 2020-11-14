@@ -1,16 +1,16 @@
 <bookshelf>
   <h3>2020</h3>
-  <div class="container">
-    <div class="book" each={ book in books }>
+  <div class="container book">
+    <div class="grid-item" each={ book in books }>
       <div>
-        <a if={ book.readMore } href="/details/{ book.readMore }">
-          <img src="/static/assets/covers/{ book.cover }">
+        <a if={ book.readMore } href="/bookshelf/details/{ book.readMore }">
+          <img src="/static/assets/books/covers/{ book.cover }">
         </a>
-        <img if={ !book.readMore } src="/static/assets/covers/{ book.cover }">
+        <img if={ !book.readMore } src="/static/assets/books/covers/{ book.cover }">
       </div>
       <div>
         <div class="title" title="Read more" if={ book.readMore }>
-          <a href="/details/{ book.readMore }">{ book.title }</a> →
+          <a href="/bookshelf/details/{ book.readMore }">{ book.title }</a> →
         </div>
         <div class="title" if={ !book.readMore }>{ book.title }</div>
         <div class="author">{ book.author }</div>
@@ -47,7 +47,7 @@
     }
 
     const getBooks = function() {
-      const apiUrl = `/api/list`;
+      const apiUrl = `/api/list/books`;
       fetch(apiUrl, {method: 'GET', mode: 'cors'}).then(response => {
         response.json().then(data => {
           console.log('getBooks', data);

@@ -29,8 +29,8 @@ services:
     restart: always
     environment:
       - VIRTUAL_PORT=8005
-      - VIRTUAL_HOST=bookshelf.shirleyyin.com
-      - LETSENCRYPT_HOST=bookshelf.shirleyyin.com
+      - VIRTUAL_HOST=library.shirleyyin.com
+      - LETSENCRYPT_HOST=library.shirleyyin.com
       - LETSENCRYPT_EMAIL=contact@shirleyyin.com
 
 networks:

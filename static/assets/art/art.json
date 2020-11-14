@@ -1,0 +1,37 @@
+[
+  {
+    "name": "howl",
+    "dateCompleted": "2020-06-02",
+    "tags": ["watercolour", "anime", "howl's moving castle"],
+    "cover": "howl.jpg",
+    "readMore": "howl"
+  },
+  {
+    "name": "sophie",
+    "dateCompleted": "2020-07-18",
+    "tags": ["watercolour", "anime", "howl's moving castle"],
+    "cover": "sophie.jpg",
+    "readMore": "sophie"
+  },
+  {
+    "name": "totoro",
+    "dateCompleted": "2020-07-11",
+    "tags": ["watercolour", "anime", "my neighbor totoro"],
+    "cover": "totoro.jpg",
+    "readMore": "totoro"
+  },
+  {
+    "name": "sailormoon",
+    "dateCompleted": "2020-06-21",
+    "tags": ["watercolour", "anime", "sailor moon"],
+    "cover": "sailormoon.jpg",
+    "readMore": "sailormoon"
+  },
+  {
+    "name": "mononoke",
+    "dateCompleted": "2020-09-13",
+    "tags": ["watercolour", "anime", "princess mononoke"],
+    "cover": "mononoke.jpg",
+    "readMore": "mononoke"
+  }
+]

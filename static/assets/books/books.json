@@ -1,9 +1,69 @@
 [
   {
+    "title": "The Wise Man's Fear",
+    "author": "Patrick Rothfuss",
+    "dateRead": "2020-11-08",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "wise_mans_fear.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Anne of Avonlea",
+    "author": "L.M. Montgomery",
+    "dateRead": "2020-10-24",
+    "rating": 3,
+    "audiobook": true,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "anne_of_avonlea.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "dateRead": "2020-10-18",
+    "rating": 3,
+    "audiobook": true,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "treasure_island.jpg",
+    "readMore": null
+  },
+  {
+    "title": "I, Robot",
+    "author": "Isaac Asimov",
+    "dateRead": "2020-10-17",
+    "rating": 3,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "i_robot.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "dateRead": "2020-10-10",
+    "rating": 2,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "foundation.jpg",
+    "readMore": null
+  },
+  {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "dateRead": "2020-10-06",
-    "rating": 4,
+    "rating": 5,
     "audiobook": true,
     "reread": true,
     "favourite": true,
@@ -33,7 +93,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "faces_in_the_crowd.jpg",
-    "readMore": null
+    "readMore": "facesinthecrowd"
   },
   {
     "title": "My Sister, the Serial Killer",

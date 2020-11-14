@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>art gallery 🎨 | shirley yin</title>
+
+  <link rel="icon" type="image/png" href="/static/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}?v=2">
+</head>
+<body class="gallery">
+  <!-- todo: don't hardcode this -->
+  <div class="header">
+    <h1><a href="https://shirleyyin.com">shirley yin</a></h1>
+    <nav>
+      <a href="https://shirleyyin.com/about">about</a><a href="https://shirleyyin.com/projects">projects</a><a href="/bookshelf">bookshelf</a><a href="/art">art</a><a href="https://shirleyyin.com/blog">blog</a>
+    </nav>
+  </div>
+
+  <h2>art gallery 🎨</h2>
+
+  <art-gallery></art-gallery>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.13.2/riot+compiler.min.js"></script>
+
+  <script type="riot/tag" src="{{ url_for('static',filename='art-gallery.tag') }}"></script>
+
+  <script>
+    riot.mount('art-gallery');
+  </script>
+</body>
+</html>
