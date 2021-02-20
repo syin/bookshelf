@@ -54,15 +54,17 @@ def art_details(item_name):
     return render_template('art_details.html', details=html_details, artwork=artwork)
 
 
-@app.route('/api/list/books')
-def list_books():
-    books = get_collection('books', 'books.json', 'dateRead')
-    return jsonify(books)
+@app.route('/api/list/books/<year>')
+def list_books(year):
+    DATE_KEY = 'dateRead'
+    books = get_collection('books', 'books.json', sort_key=DATE_KEY)
+    books_filtered_by_year = [book for book in books if book[DATE_KEY].split("-")[0] == year]
+    return jsonify(books_filtered_by_year)
 
 
 @app.route('/api/list/art')
 def list_art():
-    art = get_collection('art', 'art.json', 'dateCompleted')
+    art = get_collection('art', 'art.json', sort_key='dateCompleted')
     return jsonify(art)
 
 

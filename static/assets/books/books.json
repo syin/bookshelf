@@ -1,5 +1,137 @@
 [
   {
+    "title": "Ender's Game",
+    "author": "Orson Scott Card",
+    "dateRead": "2021-02-17",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "enders_game.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Gilead",
+    "author": "Marilynne Robinson",
+    "dateRead": "2021-02-15",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "gilead.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Perestroika in Paris",
+    "author": "Jane Smiley",
+    "dateRead": "2021-02-07",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "perestroika_in_paris.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Emma",
+    "author": "Jane Austen",
+    "dateRead": "2021-02-04",
+    "rating": 4,
+    "audiobook": true,
+    "reread": true,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "emma.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Journal of a Novel: The East of Eden Letters",
+    "author": "John Steinbeck",
+    "dateRead": "2021-01-30",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": true,
+    "category": "nonfiction",
+    "cover": "journal_of_a_novel.jpg",
+    "readMore": null
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "author": "Shirley Jackson",
+    "dateRead": "2021-01-03",
+    "rating": 5,
+    "audiobook": false,
+    "reread": false,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "haunting_of_hill_house.jpg",
+    "readMore": null
+  },
+  {
+    "title": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "dateRead": "2020-12-17",
+    "rating": 2,
+    "audiobook": true,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "mysterious_affair_at_styles.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Murder at the Vicarage",
+    "author": "Agatha Christie",
+    "dateRead": "2020-12-15",
+    "rating": 3,
+    "audiobook": true,
+    "reread": false,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "murder_at_the_vicarage.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Sense and Sensibility",
+    "author": "Jane Austen",
+    "dateRead": "2020-12-12",
+    "rating": 4,
+    "audiobook": true,
+    "reread": true,
+    "favourite": false,
+    "category": "fiction",
+    "cover": "sense_and_sensibility.jpg",
+    "readMore": null
+  },
+  {
+    "title": "The Ministry for the Future",
+    "author": "Kim Stanley Robinsion",
+    "dateRead": "2020-11-28",
+    "rating": 4,
+    "audiobook": false,
+    "reread": false,
+    "favourite": true,
+    "category": "fiction",
+    "cover": "ministry_for_the_future.jpg",
+    "readMore": null
+  },
+  {
+    "title": "Packing for Mars",
+    "author": "Mary Roach",
+    "dateRead": "2020-11-15",
+    "rating": 3,
+    "audiobook": false,
+    "reread": false,
+    "favourite": false,
+    "category": "nonfiction",
+    "cover": "packing_for_mars.jpg",
+    "readMore": null
+  },
+  {
     "title": "The Wise Man's Fear",
     "author": "Patrick Rothfuss",
     "dateRead": "2020-11-08",
@@ -93,7 +225,7 @@
     "favourite": false,
     "category": "fiction",
     "cover": "faces_in_the_crowd.jpg",
-    "readMore": "facesinthecrowd"
+    "readMore": null
   },
   {
     "title": "My Sister, the Serial Killer",

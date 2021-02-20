@@ -1,5 +1,12 @@
 <bookshelf>
-  <h3>2020</h3>
+  <div class="year-list">
+    <span
+      each={ year in years }
+      class={"year": true, "selected": year === selectedYear }
+      onclick={ selectYear }>
+      { year }
+    </span>
+  </div>
   <div class="container book">
     <div class="grid-item" each={ book in books }>
       <div>
@@ -37,6 +44,8 @@
   <script>
     const self = this;
     self.books = [];
+    self.years = ["2021", "2020"];
+    self.selectedYear = "2021";
     
     self.on('mount', function() {
       getBooks();
@@ -46,11 +55,15 @@
       return `${author}-${title}`.replace(/\s/g , "-").toLowerCase();
     }
 
+    selectYear(e) {
+      self.selectedYear = e.item.year;
+      getBooks();
+    }
+
     const getBooks = function() {
-      const apiUrl = `/api/list/books`;
+      const apiUrl = `/api/list/books/${self.selectedYear}`;
       fetch(apiUrl, {method: 'GET', mode: 'cors'}).then(response => {
         response.json().then(data => {
-          console.log('getBooks', data);
           self.books = transformStars(data);
           self.update();
         });

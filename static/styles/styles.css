@@ -129,6 +129,21 @@ h1 {
   .rating .meta-icons {
     display: flex; }
 
+.year-list {
+  display: flex;
+  align-items: center; }
+  .year-list .year {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    color: #ebc3c3;
+    margin: 0 2rem; }
+    .year-list .year.selected {
+      border: 2px solid #ebc3c3;
+      padding: 0.2rem 0.7rem;
+      box-shadow: 8px 8px 0 -1px #ebc3c3; }
+    .year-list .year:hover {
+      cursor: pointer; }
+
 .post {
   display: grid;
   grid-template-columns: 1fr calc(min(65ch, 90%)) 1fr;

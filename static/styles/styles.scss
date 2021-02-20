@@ -201,6 +201,28 @@ margin-bottom: 1rem;
   }
 }
 
+.year-list {
+  display: flex;
+  align-items: center;
+
+  .year {
+    font-family: $mono;
+    font-weight: 400;
+    color: $blushpink;
+    margin: 0 2rem;
+
+    &.selected {
+      border: 2px solid $blushpink;
+      padding: 0.2rem 0.7rem;
+      box-shadow: 8px 8px 0 -1px $blushpink;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .post {
   display: grid;
   grid-template-columns: 1fr calc(min(65ch, 90%)) 1fr;
