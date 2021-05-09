@@ -6,6 +6,7 @@
         <a if={ artwork.readMore } href="/art/details/{ artwork.readMore }">
           <img src="/static/assets/art/covers/{ artwork.cover }">
         </a>
+        <p if={ artwork.readMore }><a href="/art/details/{ artwork.readMore }">Read More</a> &rarr;</p>
         <img if={ !artwork.readMore } src="/static/assets/art/covers/{ artwork.cover }">
       </div>
     </div>
